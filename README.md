@@ -22,19 +22,6 @@ we + aver => weaver
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
 
-## Quick Start
-
-```bash
-dotnet run --project Wordlist
-```
-
-## Build & Test
-
-```bash
-dotnet build
-dotnet test
-```
-
 ## Project Structure
 
 ```
@@ -45,9 +32,4 @@ Wordlist/
 │   ├── CompoundWordFinder.cs
 │   └── media/wordlist.txt
 ├── Wordlist.Tests/           # Unit tests (xUnit)
-└── DOC.md                    # Technical documentation
 ```
-
-## Documentation
-
-See [DOC.md](DOC.md) for architecture, design decisions, performance notes, and TDD details.
